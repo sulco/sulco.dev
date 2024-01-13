@@ -18,6 +18,9 @@ module.exports = {
     },
 
     extend: {
+      lineHeight: {
+        'leading-relaxed': '1.75'
+      },
       textColor: {
         skin: {
           base: withOpacity("--color-text-base"),
