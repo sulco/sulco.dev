@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Jakarta";
+  src: url("../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf");
+}
+
 @layer base {
   :root,
   html[data-theme="light"] {
@@ -29,7 +34,7 @@
     display: block;
   }
   body {
-    @apply flex min-h-[100svh] flex-col bg-skin-fill font-mono text-skin-base 
+    @apply flex min-h-[100svh] flex-col bg-skin-fill text-skin-base 
     selection:bg-skin-accent selection:bg-opacity-70 selection:text-skin-inverted;
   }
   section,
