@@ -1,0 +1,27 @@
+<svg viewBox="0 0 100 100"
+  ><defs>
+    <clipPath id="rounded">
+      <path
+        fill="#fff"
+        d="
+        M 0,50
+        C 0,0 0,0 50, 0
+          100,0 100,0 100,50
+          100,100 100,100 50,100
+          0,100 0,100 0,50
+      "
+      ></path>
+    </clipPath>
+  </defs>
+</svg>
+
+<img src="/public/assets/avatar.png" alt="Tomek's face" />
+
+<style>
+  img {
+    clip-path: url(#rounded);
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+  }
+</style>
