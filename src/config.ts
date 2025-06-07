@@ -27,7 +27,7 @@ export const SOCIALS: SocialObjects = [
     name: "Github",
     href: "https://github.com/sulco/sulco.dev",
     linkTitle: ` ${SITE.title} on Github`,
-    active: true,
+    active: false,
   },
   // {
   //   name: "Instagram",
@@ -49,9 +49,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Twitter",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://twitter.com/sulco",
     linkTitle: `${SITE.title} on Twitter`,
-    active: false,
+    active: true,
   },
   {
     name: "Twitch",
