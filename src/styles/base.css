@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Jakarta";
-  src: url("../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf");
-}
-
 @layer base {
   :root,
   html[data-theme="light"] {
